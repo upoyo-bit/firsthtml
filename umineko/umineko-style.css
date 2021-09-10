@@ -4,6 +4,7 @@ body{
     color: white;
 }
 
+
 .one{
     text-align: center;
     font-size: 20px;
@@ -11,15 +12,22 @@ body{
 
 .title{
     height: 80px;
-    border-bottom: solid;
-    border-color: #fef4f4;
+    background-color: #f6f6f6;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
+
 }
 h1{
     font-size: 50px;
     text-align: center;
-
+    color: #1f1f1f;
 }
 
 .two{
     font-size: 18px;
+    text-align: center;
+}
+
+a{
+    color: white;
 }
